@@ -1,0 +1,48 @@
+.backgorundGradiant {
+  background: linear-gradient(
+    90deg,
+    rgba(201, 236, 227, 1) 0%,
+    rgba(218, 168, 168, 1) 100%
+  );
+}
+
+.home {
+  display: flex;
+
+  width: 98%;
+  display: flex;
+  gap: 0.8rem;
+  padding: 1rem 0rem;
+
+  .homeContainer {
+    flex: 6;
+
+    .widgets {
+      display: flex;
+      padding: 20px;
+      gap: 20px;
+      overflow: hidden;
+      /* width: 100%; */
+      flex-wrap: wrap;
+    }
+
+    .charts {
+      padding: 5px 20px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .listContainer {
+      -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+      box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+      padding: 20px;
+      margin: 20px;
+
+      .listTitle {
+        font-weight: 500;
+        color: gray;
+        margin-bottom: 15px;
+      }
+    }
+  }
+}

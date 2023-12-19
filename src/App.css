@@ -1,0 +1,75 @@
+.signup-space,
+.signup-stars {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.signup-space,
+.signup-stars {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.bg-gray-dark-mktg {
+  background-color: #040d21;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.overflow-hidden {
+  overflow: hidden !important;
+}
+
+.position-relative {
+  position: relative !important;
+}
+
+.flex-auto {
+  flex: auto !important;
+}
+
+.flex-column {
+  flex-direction: column !important;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: start;
+  position: relative;
+  background-color: #ececec;
+}
+
+#root {
+  max-width: 4000px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 4000px;
+  width: 100%;
+  height: 100%;
+  background-color: #ececec;
+}
+
+.MessagePart {
+  width: 50%;
+  height: 50vh;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: red;
+}/*# sourceMappingURL=App.css.map */

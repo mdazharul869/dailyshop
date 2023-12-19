@@ -1,0 +1,184 @@
+.CartItemSection {
+  position: fixed;
+  top: 15vh;
+  right: 2%;
+  width: 260px;
+  height: 80vh;
+  background: #d6d2d2;
+  border-radius: 8px;
+  border: 1px solid #ebebeb;
+  z-index: 2;
+}
+
+.CartItemPart {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  overflow: hidden;
+}
+
+.CartitemContainer {
+  width: 95%;
+  height: 95%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.CartitemConatant {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  gap: 0.5rem;
+  border: 1px solid #ddd;
+  height: 60px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.TittleCart {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.TittleCart .TittleCartIfo {
+  display: flex;
+  flex-wrap: wrap;
+}
+.TittleCart .TittleCartIfo span {
+  font-size: 14px;
+  font-weight: 700;
+  opacity: 0.8;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.1rem;
+}
+
+.CartItemImageContainer {
+  width: 45px;
+  height: 55px;
+  overflow: hidden;
+  display: grid;
+}
+.CartItemImageContainer img {
+  width: 90%;
+  height: 80%;
+  margin: auto;
+}
+
+.CartItemTittleName {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+.CartItemTittleName h4 {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(48, 46, 46);
+}
+
+.CartItemInfoContant {
+  width: 200px;
+  margin: auto;
+}
+.CartItemInfoContant span {
+  font-size: 14px;
+  font-weight: 600;
+  opacity: 0.8;
+}
+.CartItemInfoContant .CartItemRemove {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+.CartItemInfoContant .CartItemRemove button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: red;
+}
+
+.CartItemCekOut {
+  width: 95%;
+}
+.CartItemCekOut a {
+  width: 95%;
+  background: #6a6a6a;
+  padding: 0.1rem 0.8rem;
+  border-radius: 3px;
+  color: #ddd;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  display: flex;
+  gap: 2rem;
+}
+.CartItemCekOut a .CekoutTotal_amonut {
+  border-left: 1.5px solid #ddd;
+  padding-left: 5rem;
+  font-weight: 600;
+}
+
+.PriceTotal {
+  width: 100%;
+  background-color: #6a6a6a;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.PriceTotal span {
+  font-size: 14px;
+  font-weight: 600;
+  color: #ddd;
+}
+
+.CartCarCle {
+  position: fixed;
+  top: 50vh;
+  right: 2%;
+  background-color: #131212;
+  width: 80px;
+  height: 70px;
+  z-index: 2;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.CartShowButton {
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+}
+.CartShowButton button {
+  width: 100%;
+  outline: none;
+  background-color: transparent;
+  color: #ddd;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+}
+
+.IconsCartAbaibale {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.2rem;
+}
+.IconsCartAbaibale svg {
+  color: #ddd;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 425px) {
+  .CartCarCle {
+    display: none;
+  }
+}/*# sourceMappingURL=MainCartItem.css.map */

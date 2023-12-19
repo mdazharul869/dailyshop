@@ -1,0 +1,37 @@
+.backgorundGradiant {
+  background: linear-gradient(90deg, rgb(201, 236, 227) 0%, rgb(218, 168, 168) 100%);
+}
+
+.home {
+  display: flex;
+  width: 98%;
+  display: flex;
+  gap: 0.8rem;
+  padding: 1rem 0rem;
+}
+.home .homeContainer {
+  flex: 6;
+}
+.home .homeContainer .widgets {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+  overflow: hidden;
+  /* width: 100%; */
+  flex-wrap: wrap;
+}
+.home .homeContainer .charts {
+  padding: 5px 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.home .homeContainer .listContainer {
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  padding: 20px;
+  margin: 20px;
+}
+.home .homeContainer .listContainer .listTitle {
+  font-weight: 500;
+  color: gray;
+  margin-bottom: 15px;
+}/*# sourceMappingURL=AdminHome.css.map */

@@ -1,0 +1,383 @@
+footer {
+  padding: 2vmax;
+  background-color: rgb(34, 33, 33);
+  color: white;
+  display: flex;
+  align-items: center;
+  margin-top: 5vh;
+}
+
+.FooterMobailMenu {
+  display: none;
+}
+
+.leftFooter {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.leftFooter > h4 {
+  font-family: "Roboto";
+  font-size: 1vmax;
+}
+
+.leftFooter > p {
+  text-align: center;
+  font-size: 1.2vmax;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.leftFooter > img {
+  width: 10vmax;
+  margin: 1vmax;
+  cursor: pointer;
+}
+
+.midFooter {
+  width: 60%;
+  text-align: center;
+}
+
+.midFooter > h1 {
+  font-size: 4vmax;
+  font-family: "Roboto";
+  color: #eb4034;
+}
+
+.midFooter > p {
+  max-width: 60%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 1vmax auto;
+}
+
+.rightFooter {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rightFooter > h4 {
+  font-family: "Roboto";
+  font-size: 1.4vmax;
+  text-decoration: underline;
+}
+
+.rightFooter > a {
+  text-decoration: none;
+  font-size: 1.3vmax;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  transition: all 0.5s;
+  margin: 0.5vmax;
+}
+
+.rightFooter > a:hover {
+  color: #eb4034;
+}
+
+.FooterMiddleContain {
+  width: 100%;
+  display: grid;
+  overflow: hidden;
+}
+
+.FooterMiddleContainer {
+  padding: 0rem 1rem;
+  height: 100%;
+}
+
+.FooterMiddleContant {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+
+.FooterMiddleitems {
+  align-items: c;
+}
+
+.FooterMiddleitem {
+  align-items: c;
+}
+
+.FooterMiddleOfiices {
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+}
+
+.FooterMiddleitem {
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  gap: 1rem;
+  padding: 0.5rem 0;
+  border-top: 1px solid #c7c4c4;
+  background-color: #e9e4e4;
+}
+
+.FooterMiddleitem > a {
+  color: #1a9cb7;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.FooterMiddleitem > a:hover {
+  color: #1a9cb7;
+  text-decoration: underline;
+}
+
+.citesMiddele {
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+}
+
+.FooterAboutShopContant {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: hidden;
+  gap: 0.5rem;
+}
+
+.FourPart {
+  width: 24%;
+  display: grid;
+  overflow: hidden;
+}
+
+.FourPartContant {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 0.3rem;
+}
+
+.TittlefastPart {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+}
+
+.TittlefastPart > h4 {
+  font-family: cursive;
+  font-weight: 600;
+  opacity: 0.7;
+  border-bottom: 1px solid #ddd;
+}
+
+.allcontantPart {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem 1rem;
+  padding-top: 0.5rem;
+}
+
+.allcontantPart > a {
+  color: #1a9cb7;
+  font-size: 16px;
+}
+
+.allcontantPart > a:hover {
+  color: #1a9cb7;
+  text-decoration: underline;
+}
+
+.FourPartSecend {
+  width: 24%;
+}
+
+.FourPartThrid {
+  width: 24%;
+}
+
+.FourPartFour {
+  width: 24%;
+}
+
+.paymentMethodimages {
+  width: 40px;
+  overflow: hidden;
+  height: 40px;
+}
+
+.paymentMethod > h3 {
+  display: flex;
+  font-family: cursive;
+  opacity: 0.9;
+}
+
+.paymentMethodimages > img {
+  width: 100%;
+  height: 100%;
+}
+
+.paymentMethodimageItem {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.paymentMethod {
+  display: flex;
+  gap: 0.7rem;
+  justify-content: start;
+  align-items: center;
+  padding: 0.5rem 0rem;
+  border-top: 1px solid #cfcbcb;
+  border-bottom: 1px solid #cfcbcb;
+}
+
+.MobailFooterMenu-Container {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 53px;
+  background-color: black;
+  z-index: 9999;
+  position: fixed;
+  display: grid;
+  overflow: hidden;
+}
+
+.MobailFooterMenu-Conatant {
+  width: 83%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  gap: 0.3rem;
+  justify-content: space-around;
+}
+
+.ProfileMobailMenu-iconbs-svg {
+  border: none;
+}
+
+.MobailMenuItem {
+  width: 43px;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.MobailMenuItem span {
+  cursor: pointer;
+  padding-top: 0.3rem;
+}
+.MobailMenuItem span svg {
+  font-size: 33px;
+  padding: 0.2rem;
+  border-radius: 50%;
+}
+
+.LogoutMobailMenu-iconbs-svg {
+  color: #fd5252;
+}
+
+.DasbordMobailMenu-iconbs-svg {
+  color: #fff;
+}
+
+.NotficationMobailMenu-iconbs-svg {
+  color: #2196f3;
+}
+
+.ProfileMobailMenu-iconbs-svg {
+  color: #fff;
+}
+
+@media screen and (max-width: 4000px) {
+  .FooterMiddleContainer {
+    padding: 0rem 10rem;
+  }
+}
+@media screen and (max-width: 2550px) {
+  .FooterMiddleContainer {
+    padding: 0rem 10rem;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .FooterMiddleContainer {
+    padding: 0rem 5rem;
+  }
+  .FourPart {
+    width: 30%;
+  }
+  .FourPartSecend {
+    width: 30%;
+  }
+  .FourPartThrid {
+    width: 30%;
+  }
+  .FourPartFour {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .FooterMiddleContainer {
+    padding: 0rem 3rem;
+  }
+  .FourPart {
+    width: 33%;
+  }
+  .FourPartSecend {
+    width: 32%;
+  }
+  .FourPartThrid {
+    width: 32%;
+  }
+  .FourPartFour {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 764px) {
+  .FourPart {
+    width: 32%;
+  }
+  .FourPartSecend {
+    width: 32%;
+  }
+  .FourPartThrid {
+    width: 32%;
+  }
+  .FourPartFour {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .FooterMiddleContainer {
+    padding: 0rem 1rem;
+  }
+  .FooterMobailMenu {
+    display: block;
+  }
+  .FourPart {
+    width: 30%;
+  }
+  .FourPartSecend {
+    width: 30%;
+  }
+  .FourPartThrid {
+    width: 28%;
+  }
+  .FourPartFour {
+    width: 100%;
+  }
+  .paymentMethod > h3 {
+    font-size: 16px;
+  }
+  .TittlefastPart > h4 {
+    font-size: 12px;
+  }
+  .allcontantPart > a {
+    font-size: 14px;
+  }
+}/*# sourceMappingURL=Footer.css.map */

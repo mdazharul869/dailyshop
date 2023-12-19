@@ -1,0 +1,119 @@
+.backgorundGradiantUser {
+  // height: 100vh; //  background-color: #ddd;
+}
+.AllUserSection {
+  height: 100%;
+}
+.AllUserContainer {
+  width: 97%;
+}
+.userCountAll {
+  p {
+    padding: 0;
+    margin: 0;
+  }
+}
+.AddNewTittle {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  // background-color: aqua;
+
+  span {
+    padding: 0.3rem 0.8rem;
+    background-color: #f26161;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    color: #ddd;
+    margin: 0.5rem;
+    cursor: pointer;
+  }
+}
+.tabledata {
+  a {
+    font-weight: 600;
+    font-size: 14px;
+    color: rgb(27 28 29);
+  }
+
+  a:hover {
+    color: #1a9cb7;
+    text-decoration: underline;
+  }
+}
+.justify-center {
+  span {
+    background-color: rgb(25, 99, 227);
+    padding: 0.3rem 0.8rem;
+    font-size: 14px;
+    color: #e7dede;
+    border-radius: 2px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+
+  button {
+    background-color: rgb(240, 60, 60);
+    padding: 0rem 0.5rem;
+    font-size: 14px;
+    color: rgb(127, 65, 65);
+    border-radius: 2px;
+  }
+}
+
+.tabledatauserAction {
+  text-align: center;
+  padding: 5px 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  font-size: 15px;
+  font-family: cursive;
+  overflow: hidden;
+  justify-content: center;
+  display: flex;
+
+  div {
+    display: flex;
+    gap: 0.4rem;
+
+    button {
+      outline: none;
+      border: none;
+      color: #e2cece;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      font-family: cursive;
+    }
+  }
+}
+
+.inputLevalTittleItem {
+  select {
+    width: 99%;
+    height: 2rem;
+    font-size: 16px;
+    font-weight: 600;
+    background: transparent;
+    color: #f87474;
+    outline: none;
+    overflow: hidden;
+    border: none;
+    display: flex;
+    gap: 0.2rem;
+
+    option {
+      width: 100%;
+      display: flex;
+      gap: 0.2rem;
+      color: black;
+      height: 50px;
+      overflow-y: scroll;
+      padding: 0.3rem;
+    }
+  }
+}

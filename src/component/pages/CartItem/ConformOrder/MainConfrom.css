@@ -1,0 +1,61 @@
+.ConfromOrder-Section {
+  padding-top: 12vh;
+}
+
+.ConfromOrder {
+  width: 100%;
+  height: 100vh;
+  background-color: #a32d2d;
+}
+
+.ConfromOrderHeaderPart {
+  width: 100%;
+  /* height: 100%; */
+  display: flex;
+  flex-direction: column;
+}
+
+.ConfromOrderMiddleSection {
+  width: 100%;
+  height: 100%;
+  background-color: #a32d2d;
+}
+
+.ConfromContant {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.ConfromOrderMiddleConatnt {
+  width: 100%;
+  height: 100%;
+}
+
+.ConfromSectionTwoPart {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.FastPartSection {
+  width: 60%;
+  height: 40vh;
+  background-color: aliceblue;
+}
+
+.SecendpartContant {
+  width: 33%;
+  height: 40vh;
+  background-color: aqua;
+}
+
+@media screen and (max-width: 640px) {
+  .FastPartSection {
+    width: 100%;
+  }
+}/*# sourceMappingURL=MainConfrom.css.map */

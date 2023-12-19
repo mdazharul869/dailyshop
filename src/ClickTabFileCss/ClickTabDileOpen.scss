@@ -1,0 +1,269 @@
+.InputTabOpenContainer {
+  position: absolute;
+  top: 15%;
+  left: 17%;
+  height: 69vh;
+  width: 68%;
+  background-color: #040d22e8;
+
+  z-index: 999;
+  border-radius: 8px;
+}
+.InputTabOpenContainerRight {
+  position: absolute;
+  top: 15%;
+  left: 57%;
+  height: 36vh;
+  width: 35%;
+  background-color: rgba(4, 13, 34, 0.9098039216);
+  z-index: 999;
+  border-radius: 8px;
+}
+.InputTabOpenContainer {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+.InputTabContainer {
+  padding: 1rem;
+}
+.inputLevalTittle {
+  width: 100%;
+  display: flex;
+
+  padding: 0.5rem 0;
+}
+.inputLevalTittleloginAttention {
+  width: 100%;
+  padding: 0.5rem 0;
+}
+.inputLevalTittleloginAttention > h5 {
+  opacity: 0.8;
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.inputLevalTittle > h5 {
+  color: aliceblue;
+  opacity: 0.8;
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.AttentionColor {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  color: red;
+
+  h4 {
+    color: rgb(238, 82, 82);
+  }
+}
+.inputLevalTittleOr {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem 0;
+}
+.inputLevalTittleOr > h5 {
+  color: aliceblue;
+  opacity: 0.8;
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.startInput {
+  color: rgb(223, 27, 27);
+}
+.inputLevalTittleItem > input {
+  width: 100%;
+  height: 2rem;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  padding: 0.2rem 0.5rem;
+  color: rgb(17, 226, 209);
+  font-weight: 500;
+  font-family: cursive;
+  font-size: 16px;
+}
+.inputLevalTittleItem > input:focus {
+  color: #fff;
+  font-weight: 500;
+  font-family: cursive;
+  font-size: 18px;
+}
+.inputLevalTittleItem > input::placeholder {
+  color: #fff;
+  opacity: 0.8;
+}
+.buttonInput {
+  border: none;
+  padding-top: 0.8rem;
+}
+.buttonInput button {
+  width: 100%;
+  height: 2.5rem;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: 500;
+  color: #ddd;
+  font-family: cursive;
+  outline: none;
+  opacity: 0.8;
+  border: 1px solid #ddd;
+}
+.inputLevalTittleItebuttonInput {
+  border: none;
+  padding-top: 0.5rem;
+}
+.inputLevalTittleItebuttonInput > button {
+  width: 80%;
+  height: 2.8rem;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 500;
+  color: #ddd;
+  font-family: cursive;
+  outline: none;
+  opacity: 0.8;
+  border: 1px solid #ddd;
+  display: flex;
+  gap: 0.4rem;
+  text-align: center;
+}
+
+.inputLevalTittleItebuttonInput > button > span {
+  margin-top: 0.3rem;
+}
+.FacebookLogin {
+  background-color: #385898;
+}
+.GooleLogin {
+  background-color: rgb(221, 101, 101);
+}
+.InputTabOpenContainerRight {
+}
+.buttonInput button:hover {
+  background-color: #555;
+}
+
+/* width */
+.InputTabOpenContainer::-webkit-scrollbar {
+  width: 0.5px;
+  height: 20px;
+}
+
+/* Track */
+.InputTabOpenContainer::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.InputTabOpenContainer::-webkit-scrollbar-thumb {
+  background: #060679;
+}
+
+/* Handle on hover */
+.InputTabOpenContainer::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.inputLevalTittleItem {
+  width: 100%;
+  display: flex;
+  border: 1.5px solid rgb(186 195 215 / 63%);
+  border-radius: 3px;
+}
+
+.InputTipe-Open-TheWindow {
+  position: absolute;
+  top: 10px;
+  left: 26px;
+  width: 14%;
+  height: 5%;
+  overflow: hidden;
+}
+.InputTipe-Open-TheWindow > button {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  background-color: #d25c4d;
+  border: none;
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: #ddd;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.InputTipe-Close-TheWindow {
+  position: absolute;
+  top: 10px;
+  right: 26px;
+  width: 6%;
+  height: 6%;
+  overflow: hidden;
+}
+.InputTipe-Close-TheWindow > span > svg {
+  width: 62%;
+  height: 57%;
+  outline: none;
+  background-color: #181581;
+  border: none;
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: #ddd;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+@media screen and (max-width: 40000px) {
+}
+@media screen and (max-width: 2550px) {
+  .InputTabOpenContainer {
+    left: 34%;
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .InputTabOpenContainer {
+    left: 13%;
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .InputTabOpenContainer {
+    left: 3%;
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 764px) {
+  .InputTabOpenContainer {
+    left: 20%;
+    width: 60%;
+  }
+  .InputTabOpenContainerRight {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .InputTabOpenContainer {
+    left: 4%;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+}
+
+@media screen and (max-width: 320px) {
+}
+
+@media screen and (max-width: 40000px) {
+}

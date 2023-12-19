@@ -1,0 +1,481 @@
+.MessagePart {
+  width: 42%;
+  height: 80%;
+  right: 5%;
+  background-color: #fff;
+  // top: 20%;
+  z-index: 9;
+  position: fixed;
+  position: relative;
+}
+
+.HiddenBottom {
+  display: none;
+}
+.BolckBottomMessage {
+  display: block;
+}
+.SmallMessagePertContainer {
+  width: 60px;
+  height: 58px;
+  right: 5%;
+  background-color: #e76060;
+  bottom: 31px;
+  z-index: 1;
+  position: fixed;
+  display: grid;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.SmallMessagePertContant {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.SmallMessagePertContant > span {
+  font-size: 35px;
+  color: #fff;
+}
+
+.textMiddleChatAdmin {
+  width: 100%;
+  display: flex;
+  height: 23px;
+  font-weight: 500;
+  overflow: hidden;
+  font-size: 14px;
+}
+.AdminMiddleContant {
+  display: flex;
+  justify-content: start;
+  width: 100%;
+  padding: 0rem 1rem;
+  gap: 0.3rem;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+.textMiddleChatNameAdmin {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  font-weight: 500;
+  opacity: 0.8;
+}
+.MainMessageContainer {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.MainMessageContent {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  position: relative;
+}
+.CloseChatbutton {
+  /* height: 20px; */
+  position: absolute;
+  /* background-color: #524a4a; */
+  top: 7px;
+  right: 2%;
+  z-index: 9;
+}
+.CloseChatbutton > span {
+  font-size: 23px;
+  color: #fff;
+  background: rgba(101, 85, 85, 0.53);
+  padding: 0.5rem;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+  transition: all 0.8s;
+}
+.CloseChatbutton:hover {
+  background: rgba(68, 62, 62, 0.53);
+}
+
+.MainMessageheader {
+  width: 100%;
+  height: 25vh;
+  background-color: #e76060;
+}
+.MainMessageheaderContainer {
+}
+.MainMessageMiddle {
+  width: 100%;
+  height: 52vh;
+  background-color: #fff;
+  display: grid;
+  overflow-y: scroll;
+}
+.MainMessageMiddleContainer {
+}
+.MainMessageMiddle::-webkit-scrollbar {
+  display: none;
+}
+.MainMessageBottom {
+  width: 100%;
+  height: 9vh;
+}
+.MainMessageBottomContainer {
+}
+// All Container
+
+// header part
+.ChatManActivePart {
+  width: 100%;
+}
+
+.ChatTittle {
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.ChatTittleItem {
+  display: flex;
+  gap: 0.2rem;
+  padding: 0.3rem 1.5rem;
+  background-color: rgb(101 85 85 / 53%);
+  border-radius: 3px;
+  cursor: pointer;
+}
+.ChatTittleItem:hover {
+  background-color: rgb(101 85 85 / 80%);
+}
+.ChatTittleItem > span {
+  font-weight: 500;
+  color: #fff;
+}
+
+.ChatManActivePart {
+  width: 100%;
+  display: flex;
+  padding: 0.5rem;
+  justify-content: center;
+}
+.ChatManActivePartitem {
+  width: 40px;
+  height: 40px;
+}
+
+.ChatManActivePartitem > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.ChatInfoText {
+  width: 100%;
+  display: grid;
+  overflow: hidden;
+  justify-content: center;
+}
+.ChatInfoTextConatent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.Quationspart {
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+}
+//Middle Part Of chat
+
+.MainMessageMiddleContant {
+  width: 100%;
+  display: grid;
+  overflow: hidden;
+}
+.MainMessageMiddleitems {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  padding: 0.2rem 0rem;
+  align-items: center;
+}
+.MainMessageMiddleitem {
+  width: 96%;
+
+  margin: auto;
+}
+.MainMessageMiddleitemConatent {
+  width: 100%;
+  padding: 0.8rem 0rem;
+  gap: 0.5rem;
+}
+.MainMessageMiddleitemConatentSecend {
+  width: 100%;
+  display: flex;
+  padding: 0.8rem 0rem;
+  gap: 0.5rem;
+  justify-content: end;
+}
+.MainMessageMiddleitemConatentFlex {
+  display: flex;
+
+  gap: 0.5rem;
+}
+.ImageMiddleChatContainer {
+  width: 37px;
+  height: 35px;
+}
+.MainMessageMiddleitemAdmin {
+  width: 96%;
+  margin: auto;
+}
+.ImageMiddleChatContainer > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+}
+.textMiddleChatContainer {
+  display: flex;
+  flex-direction: column;
+}
+.textMiddleChatName {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  font-weight: 400;
+  opacity: 0.6;
+}
+.textMiddleChatNameSecend {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  font-weight: 400;
+  opacity: 0.6;
+}
+
+.textMiddleChat {
+  width: 75%;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  padding: 0.3rem;
+  background: palevioletred;
+  border-radius: 5px;
+  font-weight: 500;
+}
+.textMiddleChatSecend {
+  width: 75%;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  padding: 0.3rem;
+  background-color: #79ae85;
+  border-radius: 5px;
+  font-weight: 500;
+}
+.textMiddleChatContainerSecend {
+  justify-content: end;
+  align-items: end;
+}
+
+// botttom Part oF meessage
+.MainMessageBottomContant {
+  width: 100%;
+  display: grid;
+  overflow: hidden;
+}
+.Inputitems {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  padding: 0.2rem 0rem;
+  align-items: center;
+}
+.Inputitem {
+  width: 96%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border: 1px solid #a79e9e;
+}
+.Inputitem > input {
+  padding: 0.8rem;
+  width: 56%;
+  outline: none;
+  border: none;
+}
+.InputitemInRight {
+  width: 36%;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.InputitemInRight > span {
+  font-size: 20px;
+  cursor: pointer;
+}
+.Inputitem > span {
+}
+@media screen and (max-width: 4000px) {
+  .MessagePart {
+    width: 30%;
+    // height: 638px;
+    position: absolute;
+    right: 5%;
+    background-color: #fff;
+    //top: 5%;
+    z-index: 9;
+    position: fixed;
+  }
+  .SmallMessagePertContainer {
+    background-color: #e76060;
+  }
+  .MainMessageheader {
+    width: 100%;
+    height: 14vh;
+    background-color: #e76060;
+  }
+}
+
+@media screen and (max-width: 2550px) {
+  .MessagePart {
+    width: 30%;
+    // height: 638px;
+    position: absolute;
+    right: 5%;
+    background-color: #0f0a0a;
+    position: fixed;
+    //   top: 5%;
+    z-index: 9;
+  }
+  .MainMessageheader {
+    width: 100%;
+    height: 14vh;
+    background-color: #e76060;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .MessagePart {
+    width: 30%;
+    // height: 590px;
+    position: absolute;
+    right: 5%;
+    background-color: #fff;
+    //  top: 9%;
+    z-index: 9;
+    position: fixed;
+  }
+  .MainMessageheader {
+    width: 100%;
+    height: 20vh;
+    background-color: #e76060;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .MessagePart {
+    width: 42%;
+    //  height: 587px;
+    position: absolute;
+    right: 5%;
+    background-color: #fff;
+    //  top: 16%;
+    z-index: 9;
+    position: fixed;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .MessagePart {
+    width: 48%;
+    //height: 535px;
+    position: absolute;
+    right: 5%;
+    background-color: #fff;
+
+    // top: 4%;
+    z-index: 9;
+    position: fixed;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .MessagePart {
+    width: 74%;
+    height: 90%;
+    position: absolute;
+    right: 5%;
+    background-color: #fff;
+    top: 12.5%;
+
+    //   top: 3%;
+    z-index: 9;
+    position: fixed;
+  }
+  .MainMessageheader {
+    height: 24vh;
+  }
+
+  .SmallMessagePertContainer {
+    width: 60px;
+    height: 84px;
+    right: -1%;
+    background-color: transparent;
+    bottom: -16px;
+    z-index: 99999;
+    position: fixed;
+    display: grid;
+    /* border-radius: 30px; */
+    cursor: pointer;
+    border-radius: 2px solid white;
+  }
+
+  .SmallMessagePertContant > span {
+    font-size: 32px;
+    color: #fff;
+    /* background: red; */
+    padding: 0rem 0.3rem;
+    border-radius: 50%;
+    align-items: center;
+    border: 1.5px solid;
+  }
+  .SmallMessagePertContant > span > svg {
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .MessagePart {
+    width: 90%;
+    //   height: 565px;
+    position: absolute;
+    right: 6%;
+    background-color: #fff;
+    top: 12.5%;
+
+    //  top: 3%;
+    z-index: 9;
+    position: fixed;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .MessagePart {
+    width: 92%;
+    //   height: 565px;
+    position: absolute;
+    right: 5%;
+    top: 12.5%;
+    background-color: #fff;
+
+    //top: 4%;
+    z-index: 9;
+    position: fixed;
+    // #e76060
+  }
+}

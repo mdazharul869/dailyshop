@@ -1,0 +1,588 @@
+a {
+  text-decoration: none;
+}
+
+.CategoryHeaderShow {
+  box-shadow: 0px 0px 10px solid whitesmoke;
+  border-bottom: 1px solid rgba(221, 221, 221, 0.8666666667);
+}
+
+.categoryHeaderContantShow {
+  width: 100%;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.categoryHeaderContantShow > a {
+  color: rgba(255, 46, 46, 0.856);
+}
+
+.categoryHeaderContantShow > a > span {
+  color: black;
+}
+
+.categoryLeftSidePageMobailMenu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.categoryPagePart {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+}
+
+.CategorySection {
+  padding-top: 5.5rem;
+}
+
+.CategoryPageProductTittle {
+  margin-bottom: 1rem;
+  border-bottom: 1.5px solid #d8d8d8;
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  align-items: center;
+  padding: 0.4rem 0.5rem;
+  border-radius: 5px;
+}
+.CategoryPageProductTittle .CatrgoryPageTaittleConatnt {
+  align-items: c;
+}
+.CategoryPageProductTittle .CatrgoryPageTaittleConatnt h4 {
+  font-size: 18px;
+  font-family: cursive;
+  /* color: #301414; */
+  opacity: 0.7;
+  font-weight: 500;
+}
+.CategoryPageProductTittle .CatrgoryPageTaittleConatnt span {
+  font-size: 14px;
+  color: red;
+}
+.CategoryPageProductTittle .SearchCategoryPage {
+  align-items: c;
+}
+.CategoryPageProductTittle .SearchCategoryPage input {
+  align-items: center;
+  height: 2rem;
+  padding: 0rem 0.6rem;
+  outline: navajowhite;
+  border: none;
+  border: 1px solid #ddd;
+}
+.CategoryPageProductTittle .ProductSortCategoryPage {
+  align-items: c;
+}
+
+.categoryLeftSidePage {
+  width: 265px;
+}
+
+.categoryPageRightSide {
+  width: 78%;
+}
+
+.promotionsSector {
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+.promotiontittle {
+  width: 100%;
+  padding: 0.5rem 0rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.promotiontittle > h4 {
+  color: rgb(92, 84, 84);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.promotionCard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.ColorCard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.CategoryproductCard {
+  width: 185px;
+  display: grid;
+  overflow: hidden;
+  padding: 0.2rem;
+  background-color: #fff;
+  border: 1px solid #ebebeb;
+  cursor: pointer;
+}
+
+.productImageCategoryPage {
+  position: relative;
+}
+
+.productImageCategoryPageHoverEffict {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(221, 221, 221, 0.6509803922);
+  z-index: 1;
+}
+
+.ProductVew {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.ProductVew > h4 {
+  font-size: 17px;
+  /* font-family: cursive; */
+  opacity: 0.8;
+}
+
+.CategoryproductCard:hover {
+  box-shadow: 0px 0px 28px #ddd;
+}
+
+.CategoryProductContainer {
+  display: grid;
+  position: relative;
+}
+
+.promotionItems {
+  width: 100%;
+  display: grid;
+}
+
+.ColorCardItems {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.categoryLeftSidePageContant {
+  border-right: 1px solid #ddd;
+  background-color: #ffffff;
+  padding: 0.5rem 0.4rem;
+  border-radius: 5px;
+}
+
+.CategoryCardItems {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  font-family: cursive;
+}
+
+.reviewCardItems {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* gap: 0.3rem; */
+  font-family: cursive;
+}
+
+.promotionItem {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0.2rem 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.CardItem {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0.2rem 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  gap: 0.4rem;
+}
+.CardItem .red {
+  width: 20px;
+  height: 21px;
+  background: red;
+}
+.CardItem .green {
+  width: 20px;
+  height: 21px;
+  background: green;
+}
+.CardItem .white {
+  width: 20px;
+  height: 21px;
+  background: rgb(190, 183, 183);
+}
+.CardItem .yellow {
+  width: 20px;
+  height: 21px;
+  background: yellow;
+}
+.CardItem .blue {
+  width: 20px;
+  height: 21px;
+  background: blue;
+}
+.CardItem .parple {
+  width: 20px;
+  height: 21px;
+  background: palegreen;
+}
+
+.reviewCard {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  /* padding: 0.2rem 0.8rem; */
+  /* border-radius: 5px; */
+  /* gap: 0.2rem; */
+}
+
+.reviewItem {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0.2rem 0.8rem;
+  /* border: 1px solid #ddd; */
+  border-radius: 5px;
+  gap: 0.4rem;
+}
+
+.SizeCard {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0.2rem 0.8rem;
+  border-radius: 5px;
+  gap: 0.2rem;
+}
+.SizeCard .size {
+  width: 13px;
+  height: 13px;
+  background: white;
+  border-radius: 50%;
+  border: 1px solid;
+}
+
+.CategoryProductContant {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.promotionItem:hover {
+  border: 1px solid rgb(235, 74, 74);
+}
+
+.promotionCard > a {
+  color: rgb(31, 29, 29);
+  font-size: 14px;
+}
+
+.promotionItem > img {
+  width: 25px;
+}
+
+.AdCartContainer {
+  width: 100%;
+  display: flex;
+  height: 1.5rem;
+}
+
+.AdCartContainer > button {
+  width: 100%;
+  border: none;
+  outline: none;
+  border: 1px solid #6a6a6a;
+  border-radius: 1px;
+  background-color: #6a6a6a;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ddd;
+  cursor: pointer;
+}
+
+.categoryLeftSidePageMobailMenu {
+  display: none;
+}
+
+.SuggestedProductsSection {
+  width: 100%;
+  height: 100%;
+}
+
+.SuggestedProductContainer {
+  padding: 1rem 0.5rem;
+}
+
+.SuggestedTittleProductContainer {
+  width: 100%;
+  height: 5vh;
+  background-color: #0099ff;
+}
+
+.SuggestedTittleContant {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+}
+
+.SuggestedTittleFastPart {
+  width: 50%;
+  height: 100%;
+  background-color: rgba(255, 0, 168, 0.6588235294);
+  border-top-right-radius: 111px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.SuggestedTittleFastPart h2 {
+  color: rgba(221, 221, 221, 0.8666666667);
+  position: relative;
+}
+.SuggestedTittleFastPart h2 span {
+  background-color: rgb(214, 223, 227);
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  position: absolute;
+}
+.SuggestedTittleFastPart h2 .one1 {
+  top: 8px;
+  left: -10px;
+}
+.SuggestedTittleFastPart h2 .two2 {
+  top: 8px;
+  left: -24px;
+}
+.SuggestedTittleFastPart h2 .three3 {
+  top: 18px;
+  left: -10px;
+}
+.SuggestedTittleFastPart h2 .four4 {
+  top: 18px;
+  left: -24px;
+}
+
+.SuggestedTittleSecendPart {
+  width: 50%;
+  height: 100%;
+  background-color: #0099ff;
+  border-top-left-radius: 111px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.SuggestedTittleSecendPart h2 {
+  color: rgba(221, 221, 221, 0.8666666667);
+  position: relative;
+}
+.SuggestedTittleSecendPart h2 span {
+  background-color: rgb(214, 223, 227);
+}
+.SuggestedTittleSecendPart h2 .one {
+  position: absolute;
+  top: 8px;
+  right: -34px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+.SuggestedTittleSecendPart h2 .two {
+  position: absolute;
+  top: 8px;
+  right: -20px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+.SuggestedTittleSecendPart h2 .three {
+  position: absolute;
+  top: 22px;
+  right: -20px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+.SuggestedTittleSecendPart h2 .four {
+  position: absolute;
+  top: 22px;
+  right: -34px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+
+.SuggestedProductContant {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.SuggestedProductContantItems {
+  width: 100%;
+  height: 100%;
+  padding-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.NoneDisplay {
+  display: none;
+}
+
+.BlockDisplay {
+  width: 100%;
+  display: grid;
+  justify-content: end;
+}
+
+.BestmatchProductCard {
+  width: 172px;
+  display: grid;
+  overflow: hidden;
+  padding: 0.2rem;
+  background-color: #ffffff;
+  cursor: pointer;
+  border: 0.5px solid #ddd;
+}
+
+.cardItemBestMachProduct {
+  width: 100%;
+  height: 100%;
+}
+
+.ProductPriceBestMachProduct {
+  font-size: 14px;
+}
+.ProductPriceBestMachProduct h4 {
+  padding-right: 0.5rem;
+  font-size: 14px;
+  font-weight: 700;
+  opacity: 0.7;
+}
+
+.ProductPriceBestMachProduct {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+}
+.ProductPriceBestMachProduct h4 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.line-thow {
+  text-decoration: line-through;
+}
+
+.FreeShipingOOrBangladesh span {
+  font-size: 15px;
+  padding: 0.4rem 0.8rem;
+}
+
+@media screen and (max-width: 2560px) {
+  .categoryPage {
+    padding: 1rem 10rem;
+  }
+  .CategoryHeaderShow {
+    padding: 0.5rem 10rem;
+  }
+  .categoryPageRightSide {
+    width: 88%;
+  }
+  .CategoryproductCard {
+    width: 182px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .categoryPage {
+    padding: 1rem 5rem;
+  }
+  .CategoryHeaderShow {
+    padding: 0.5rem 5rem;
+  }
+  .categoryPageRightSide {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .categoryPage {
+    padding: 1rem 3rem;
+  }
+  .CategoryHeaderShow {
+    padding: 0.5rem 3rem;
+  }
+  .CategoryproductCard {
+    width: 158px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .categoryPage {
+    padding: 1rem 3rem;
+  }
+  .CategoryHeaderShow {
+    padding: 0.5rem 3rem;
+  }
+  .CategoryproductCard {
+    width: 158px;
+  }
+  .categoryLeftSidePage {
+    display: none;
+  }
+  .categoryPageRightSide {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .categoryPage {
+    padding: 1rem 1rem;
+  }
+  .CategoryHeaderShow {
+    padding: 0.5rem 1rem;
+  }
+  .SearchCategoryPage {
+    display: none;
+  }
+  .CategoryproductCard {
+    width: 155px;
+  }
+  .categoryLeftSidePageMobailMenu {
+    display: block;
+  }
+}
+@media screen and (max-width: 375px) {
+  .CategoryproductCard {
+    width: 140px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .CategoryproductCard {
+    width: 128px;
+  }
+}/*# sourceMappingURL=CategoryPage.css.map */
